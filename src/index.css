@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Kitten Bold Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Kitten Bold Regular'), url('KittenBoldTrial.woff') format('woff');
+}
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffa7cd #80ffd4;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #80ffd4;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffa7cd;
+    border-radius: 5px;
+    
+  }
+
+body {
+  background: linear-gradient(90deg, rgba(255,167,205,1) 0%, rgba(148,233,209,1) 100%);
+}
+
+input {
+  border-radius: 5px;
+}
+*:focus {
+  outline: none;
+}
+
+h1, footer {
+  margin-bottom: 0px;
+  color: rgb(128, 255, 212);
+  font-family: 'Kitten Bold Regular';
+  font-weight: 300;
+  text-shadow: 2px 2px 5px #6b1d1d;
+}
+
+h2 {
+  font-family: 'Kitten Bold Regular';
+  font-weight: 100;
+  color: lightslategray;
+  font-size: larger;
+}
+
+p {
+  font-family: monospace;
+  font-weight: bold;
+}
+
