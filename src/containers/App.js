@@ -4,6 +4,7 @@ import SearchBox from "../components/SearchBox";
 import Scroll from '../components/Scroll';
 import ErrorBoundry from "../components/ErrorBoundry";
 
+
 function App() {
     // constructor() {
     //     super()
@@ -48,10 +49,6 @@ function App() {
                         <CardList robots={filteredRobots} />
                     </ErrorBoundry>
                 </Scroll>
-                
-                <div className="dt w-100 mt5">
-                    <footer className="dtc ph3 tc f1 v-mid">Agulachin</footer>
-                </div>
             </div>
         )}
 
